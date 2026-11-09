@@ -1,0 +1,54 @@
+
+.btn-link {
+  display: inline-block;
+  background-color: #003879; 
+  color: #e0f2f1;            
+  padding: 6px 12px;        
+  border-radius: 3px;        
+  text-decoration: none;     
+  font-family: sans-serif;
+  font-weight: 600;          
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.btn-link:hover {
+  background-color: #0055b8; 
+}
+
+.btn-link:active {
+  transform: scale(0.98);  
+}
+
+.container {
+  background: radial-gradient(circle, #0e2a47 0%, #051329 100%);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  color: #e0f2f1; 
+}
+
+.ocean-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #e0f2f1;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(0, 242, 254, 0.4));
+}
+
+.generaltext {
+  font-size: 1.1rem;
+  color: #e0f2f1; 
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
